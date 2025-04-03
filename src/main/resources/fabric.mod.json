@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "vb",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Vibrant Lands",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/N0z1r0h",
+		"sources": "https://github.com/N0z1r0h/vibrant-lands"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/vb/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "n0z1r0h.vb.ExampleMod"
+          "n0z1r0h.vb.VibrantLands"
 		],
 		"client": [
-          "n0z1r0h.vb.ExampleModClient"
+			"n0z1r0h.vb.VibrantLandsClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"vb.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "vb.client.mixins.json",
 			"environment": "client"
 		}
 	],
