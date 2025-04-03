@@ -6,11 +6,11 @@ import net.minecraft.registry.tag.ItemTags;
 
 public class ToolMaterialRegistry {
     public static final ToolMaterial PLATINUM_MATERIAL = new ToolMaterial(
-            BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+            TagRegistry.INCORRECT_FOR_PLATINUM_TOOL,
             1775,
             8.5F,
             3.5F,
             16,
-            ItemTags.DIAMOND_TOOL_MATERIALS
+            TagRegistry.PLATINUM_TOOL_MATERIALS
     );
 }
