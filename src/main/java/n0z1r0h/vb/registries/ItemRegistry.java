@@ -17,4 +17,6 @@ public class ItemRegistry {
         Registry.register(Registries.ITEM, key, item);
         return item;
     }
+
+    public static void init() {}
 }
