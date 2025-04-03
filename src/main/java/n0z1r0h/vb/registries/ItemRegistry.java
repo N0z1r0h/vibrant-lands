@@ -1,6 +1,8 @@
 package n0z1r0h.vb.registries;
 
+import n0z1r0h.vb.VibrantLands;
 import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
