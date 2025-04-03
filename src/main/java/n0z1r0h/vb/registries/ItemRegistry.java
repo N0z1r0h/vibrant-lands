@@ -18,5 +18,7 @@ public class ItemRegistry {
         return item;
     }
 
+    public static final Item PLATINUM_INGOT = register("platinum_ingot", Item::new, new Item.Settings().maxCount(64));
+
     public static void init() {}
 }
