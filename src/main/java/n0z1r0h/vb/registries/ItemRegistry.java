@@ -20,7 +20,8 @@ public class ItemRegistry {
 
     public static final Item PLATINUM_INGOT = register("platinum_ingot", Item::new, new Item.Settings().maxCount(64));
     public static final Item PLATINUM_SWORD = register("platinum_sword",
-            Item::new, new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5f, 1.7f));
+            Item::new,
+            new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5f, 1.65f));
 
     public static void init() {}
 }
