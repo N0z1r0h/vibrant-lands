@@ -13,4 +13,6 @@ public class ToolMaterialRegistry {
             16,
             TagRegistry.PLATINUM_TOOL_MATERIALS
     );
+
+    public static void init() {}
 }

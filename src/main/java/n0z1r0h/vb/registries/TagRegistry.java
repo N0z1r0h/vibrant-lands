@@ -18,4 +18,6 @@ public class TagRegistry {
 
     public static final TagKey<Block> INCORRECT_FOR_PLATINUM_TOOL = ofBlock("incorrect_for_platinum_tool");
     public static final TagKey<Item> PLATINUM_TOOL_MATERIALS = ofItem("platinum_tool_materials");
+
+    public static void init() {}
 }
