@@ -1,9 +1,6 @@
 package n0z1r0h.vb;
 
-import n0z1r0h.vb.registries.ItemRegistry;
-import n0z1r0h.vb.registries.MaterialRegistry;
-import n0z1r0h.vb.registries.TagRegistry;
-import n0z1r0h.vb.registries.ToolMaterialRegistry;
+import n0z1r0h.vb.registries.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -26,6 +23,7 @@ public class VibrantLands implements ModInitializer {
 		ItemRegistry.init();
 		TagRegistry.init();
 		MaterialRegistry.init();
+		SoundRegistry.init();
 
 		LOGGER.info("Hello Fabric world!");
 	}
