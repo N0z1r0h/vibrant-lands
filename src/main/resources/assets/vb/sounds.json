@@ -2,7 +2,10 @@
     "jb_wet_hands": {
         "subtitle": "sound.vb.jb_wet_hands",
         "sounds": [
-            "vb:songs/wet_hands_jb"
+            {
+                "name": "songs/wet_hands_jb",
+                "stream": true
+            }            
         ]
     }
 }
