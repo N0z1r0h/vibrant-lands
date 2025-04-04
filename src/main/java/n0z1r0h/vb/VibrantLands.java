@@ -24,6 +24,7 @@ public class VibrantLands implements ModInitializer {
 		TagRegistry.init();
 		MaterialRegistry.init();
 		SoundRegistry.init();
+		JukeBoxSongRegistry.init();
 
 		LOGGER.info("Hello Fabric world!");
 	}
