@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 import java.util.function.Function;
 
@@ -22,7 +23,7 @@ public class ItemRegistry {
     public static final Item PLATINUM_SWORD = register("platinum_sword",
             Item::new,
             new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5f, 1.65f));
-    // public static final Item JB_DISC = register("jb_disc", Item::new, new Item.Settings().jukeboxPlayable(SongRegistry.WET_HANDS_JB));
+    public static final Item JB_DISC = register("wet_hands_jb", Item::new, new Item.Settings().rarity(Rarity.UNCOMMON).jukeboxPlayable(JukeBoxSongRegistry.JB_KEY).maxCount(1));
 
     public static void init() {}
 }
