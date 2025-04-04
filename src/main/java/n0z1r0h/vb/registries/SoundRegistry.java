@@ -12,7 +12,7 @@ public class SoundRegistry {
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
-    public static final SoundEvent JB_DISC_SE = register("wet_hands_jb");
+    public static final SoundEvent JB_DISC_SE = register("jb_wet_hands");
 
     public static void init() {}
 }
