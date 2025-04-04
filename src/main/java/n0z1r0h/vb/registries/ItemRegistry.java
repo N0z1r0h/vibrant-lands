@@ -22,6 +22,7 @@ public class ItemRegistry {
     public static final Item PLATINUM_SWORD = register("platinum_sword",
             Item::new,
             new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5f, 1.65f));
+    // public static final Item JB_DISC = register("jb_disc", Item::new, new Item.Settings().jukeboxPlayable(SongRegistry.WET_HANDS_JB));
 
     public static void init() {}
 }
