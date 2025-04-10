@@ -22,7 +22,7 @@ public class ItemRegistry {
     public static final Item PLATINUM_INGOT = register("platinum_ingot", Item::new, new Item.Settings().maxCount(64));
     public static final Item PLATINUM_SWORD = register("platinum_sword",
             Item::new,
-            new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5f, 1.65f));
+            new Item.Settings().sword(ToolMaterialRegistry.PLATINUM_MATERIAL, 7.5F, 1.65F));
     public static final Item JB_DISC = register("wet_hands_jb", Item::new, new Item.Settings().rarity(Rarity.UNCOMMON).jukeboxPlayable(JukeBoxSongRegistry.JB_KEY).maxCount(1));
 
     public static void init() {}
