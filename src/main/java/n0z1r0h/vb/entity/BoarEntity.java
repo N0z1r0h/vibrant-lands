@@ -8,10 +8,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animatable.manager.AnimatableManager;
 
 import java.util.UUID;
 
-public class BoarEntity extends AnimalEntity implements Angerable {
+public class BoarEntity extends AnimalEntity implements Angerable, GeoEntity {
     public BoarEntity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
@@ -49,5 +52,15 @@ public class BoarEntity extends AnimalEntity implements Angerable {
     @Override
     public void chooseRandomAngerTime() {
 
+    }
+
+    @Override
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
+        
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        return null;
     }
 }
